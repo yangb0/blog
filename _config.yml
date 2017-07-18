@@ -17,6 +17,7 @@ title: yang的博客
 description: My personal blog
 url: 
 rss_url: /pages/atom.xml
+baseurl: "/blog/"
 
 # gavatar头像及Favicon
 gavatar: /public/img/deer3.png
