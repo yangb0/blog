@@ -1,63 +1,26 @@
-# Site settings
-title: yang的博客
-header-img: "img/green.jpg"
-tagline: "cn"  
-description: ""  
-baseurl: ""
-url: ""  
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# About/contact
-owner: 
-  name: " "
-  email: 
-  bio: ""
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-douban_username:  
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate:         5
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+# Custom vars
+version:          2.1.0
 
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "CnFeat"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
-
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : 
-  disqus :
-      short_name : 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: 
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
+github:
+  repo:           https://github.com/poole/hyde
